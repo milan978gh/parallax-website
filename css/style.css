@@ -7,3 +7,11 @@
     list-style: none;
     box-sizing: border-box;
 }
+body, html{
+    font-size: 16px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    line-height: 1.8em;
+    height: 100%;
+    color: #777;
+}
