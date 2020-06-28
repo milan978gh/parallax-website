@@ -5,7 +5,6 @@
     padding: 0;
     text-decoration: none;
     list-style: none;
-    box-sizing: border-box;
 }
 body, html{
     font-size: 16px;
@@ -14,4 +13,27 @@ body, html{
     line-height: 1.8em;
     height: 100%;
     color: #777;
+}
+.pimg1, .pimg2, .pimg3{
+    position: relative;
+    opacity: .7;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    /* parallax effect */
+    /* fixed = parallax ; scroll = normal */
+    background-attachment: fixed;
+}
+.pimg1{
+    background-image: url(../img/pic-1.jpg);
+    min-height: 100%;
+}
+.pimg2{
+    background-image: url(../img/pic-2.jpg);
+    min-height: 400px;
+}
+.pimg3{
+    background-image: url(../img/pic-3.jpg);
+    min-height: 400px;
 }
